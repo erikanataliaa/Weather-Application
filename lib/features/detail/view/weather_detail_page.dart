@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart'; 
 import 'package:weather_application/features/detail_page/bloc/Weather_event.dart';
 import 'package:weather_application/features/detail_page/bloc/Weather_state.dart';
 
