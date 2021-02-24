@@ -1,5 +1,4 @@
 import 'package:equatable/equatable.dart';
-import 'package:weather_application/main.dart';
 
 abstract class WeatherEvent extends Equatable {
   const WeatherEvent();

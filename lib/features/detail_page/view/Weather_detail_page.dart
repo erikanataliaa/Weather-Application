@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_application/Weather_bloc.dart';
-import 'package:weather_application/Weather_event.dart';
-import 'package:weather_application/Weather_state.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_event.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_state.dart';
 
 // import '../data/model/weather.dart';
-import 'main.dart';
+import '../../../main.dart';
+import '../bloc/Weather_bloc.dart';
 
 class WeatherDetailPage extends StatefulWidget {
   final Weather masterWeather;

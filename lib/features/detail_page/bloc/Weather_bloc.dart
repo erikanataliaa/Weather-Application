@@ -1,14 +1,11 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:weather_application/NetworkError.dart';
-import 'package:weather_application/Weather_event.dart';
-import 'package:weather_application/Weather_state.dart';
-import 'package:weather_application/repository.dart';
-import 'package:weather_application/weather_bloc.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_event.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_state.dart';
+import 'package:weather_application/features/detail_page/data/repository/repository.dart';
 
-import './Weather_bloc.dart';
-// import '../data/repository.dart';
+class NetworkError extends Error {}
 
 class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {
   final WeatherRepository repository;

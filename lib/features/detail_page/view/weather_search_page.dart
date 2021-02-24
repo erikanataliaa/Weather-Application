@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-// import 'package:flutter_bloc_v1_tutorial/data/model/weather.dart';
-import 'package:weather_application/Weather_bloc.dart';
-import 'package:weather_application/Weather_event.dart';
-import 'package:weather_application/Weather_state.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_event.dart';
+import 'package:weather_application/features/detail_page/bloc/Weather_state.dart';
 import 'package:weather_application/main.dart';
-// import 'package:weather_application/repository.dart';
-
-import 'Weather_bloc.dart';
+import '../bloc/Weather_bloc.dart';
 import 'weather_detail_page.dart';
 
 class WeatherSearchPage extends StatelessWidget {

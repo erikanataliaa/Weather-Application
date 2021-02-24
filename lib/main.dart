@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_application/Weather_bloc.dart';
-import 'package:weather_application/repository.dart';
-import 'package:weather_application/weather_search_page.dart';
+import 'package:weather_application/features/detail_page/view/weather_search_page.dart';
+import 'features/detail_page/data/repository/repository.dart';
 
 class Weather extends Equatable {
   final String cityName;

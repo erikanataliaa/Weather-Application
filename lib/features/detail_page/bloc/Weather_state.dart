@@ -1,6 +1,4 @@
 import 'package:equatable/equatable.dart';
-
-// import '../data/model/weather.dart';
 import 'package:weather_application/main.dart';
 
 abstract class WeatherState extends Equatable {

@@ -1,12 +1,13 @@
 import 'dart:math';
 
 import 'package:weather_application/main.dart';
-import 'NetworkError.dart';
 
 abstract class WeatherRepository {
   Future<Weather> fetchWeather(String cityName);
   Future<Weather> fetchDetailedWeather(String cityName);
 }
+
+class NetworkError extends Error {}
 
 class FakeWeatherRepository implements WeatherRepository {
   double cachedTempCelsius;
